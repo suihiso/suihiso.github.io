@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 221, 200);
+}
+.container{
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+}
+.headerButton{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(143, 132, 114);
+    border-radius: 5px;
+}
+.headerButton p{
+    user-select: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+}
+.headerButton:hover{
+    transition: all 0.3s;
+    background-color: rgb(155, 144, 126);
+}
+.headerButton:active{
+    transition: all 0.1s;
+    background-color: rgb(143, 132, 114);
+    transform: scale(0.95);
+    
+}
+/*начало главного блока*/
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.leftBlock{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 25%;
+}
+.leftButton{
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(173, 161, 142);
+    border-radius: 10px;
+}
+.leftButton p{
+    user-select: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+}
+.leftButton:hover{
+    transition: all 0.3s;
+    border-radius: 30px;
+    background-color: rgb(181, 171, 153);
+}
+.leftButton:active{
+    transition: all 0.1s;
+    background-color: rgb(143, 132, 114);
+    transform: scale(0.95);
+}
+.rightBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+}
+.slideShow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/3725294/pub_5f21b88f67a6ba5f587a06e1_5f21b893cb870d0ab37d6506/scale_1200);
+    background-size: 100% 100%;
+}
+.slideShowArrow{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+}
+.slideShowArrow img{
+    background-color: transparent;
+}
+.slideShowBox{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.slideShowBox h1{
+    font: 40pt sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+.slideShowBox p{
+    font: 20pt sans-serif;
+    background-color: transparent;
+}
+.slideShowBox mark{
+    background-color: aliceblue;
+}
+.slideShowButton{
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 75px;
+    background-color: rgb(143, 132, 114);
+    border-radius: 15px;
+}
+.slideShowButton p{
+    user-select: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+}
+.slideShowButton:hover{
+    transition: all 0.3s;
+    background-color: rgb(155, 144, 126);
+}
+.slideShowButton:active{
+    transition: all 0.1s;
+    background-color: rgb(143, 132, 114);
+    transform: scale(0.95);
+    
+}
+.textBlock1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 170px;
+    background-color: rgb(212, 198, 176);
+}
+.textBlock1 p{
+    text-align: center;
+    font: 20pt sans-serif;
+    color: rgb(96, 88, 75);
+    background-color: rgb(212, 198, 176);
+}
+.textBlock2{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+.textBlock2 p{
+    font: 30pt sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(96, 88, 75);
+}
+.textBlock3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 31.5%;
+    height: 300px;
+    background-color: rgb(212, 198, 176);
+}
+.textBlock3 p{
+    text-align: center;
+    font: 20pt sans-serif;
+    color: rgb(96, 88, 75);
+    background-color: transparent;
+}
+.textBlock3 img{
+    background-color: transparent;
+}
+/*конец главного блока*/
+.footer{
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(173, 161, 142);
+}
+.footerBtnBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.footerButton{
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(212, 198, 176);
+    border-radius: 5px;
+}
+.footerButton img{
+    background-color: transparent;
+}
+.footerButton:hover{
+    transition: all 0.3s;
+    background-color: rgb(195, 183, 166);
+}
+.footerButton:active{
+    transition: all 0.1s;
+    background-color: rgb(191, 178, 161);
+    transform: scale(0.95);
+    
+}
+.footerText{
+    color: white;
+    font: 16pt sans-serif;
+    background-color: transparent;
+}
+.footerText u{
+    background-color: transparent;
+}

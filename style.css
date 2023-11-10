@@ -131,11 +131,13 @@
     background-color: transparent;
 }
 .slideShowBox h1{
+    text-align: center;
     font: 40pt sans-serif;
     font-weight: bold;
     background-color: transparent;
 }
 .slideShowBox p{
+    text-align: center;
     font: 20pt sans-serif;
     background-color: transparent;
 }
@@ -155,6 +157,7 @@
 }
 .slideShowButton p{
     user-select: none;
+    text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
